@@ -333,3 +333,5 @@ footer.site .made { color: var(--ink-3); }
 /* Opened inside the DailyBLUF app: the app supplies its own navigation. */
 .in-app .topbar, .in-app footer.site { display: none; }
 .in-app .hero { padding-top: 24px; }
+/* Inside the app the page reads like one of its screens: up and down only. */
+html.in-app, .in-app body { overflow-x: hidden; touch-action: pan-y; overscroll-behavior-x: none; }
