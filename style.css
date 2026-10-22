@@ -329,3 +329,7 @@ footer.site .made { color: var(--ink-3); }
 .brand .mark { border-radius: 9px; }
 .eyebrow { color: var(--red); }
 .wrap h1 { font-family: "New York", "Iowan Old Style", Georgia, serif; }
+
+/* Opened inside the DailyBLUF app: the app supplies its own navigation. */
+.in-app .topbar, .in-app footer.site { display: none; }
+.in-app .hero { padding-top: 24px; }
